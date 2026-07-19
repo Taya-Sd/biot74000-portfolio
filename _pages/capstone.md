@@ -4,56 +4,18 @@ title: "Capstone Connection"
 author_profile: true
 ---
 
-<!--
-  ============================================================================
-  SECTION 4: CAPSTONE CONNECTION  (20 points)  |  Suggested length: 200–300 words
-  ============================================================================
-  A concise, professional summary of how you applied bioinformatics to your
-  capstone project. This draws from your Assignment 2 work — it is a
-  professional-context summary, NOT a repeat of the assignment.
-
-  INCLUDE:
-    - A 2–4 sentence description of your capstone project (assume a general
-      audience who is not in your program)
-    - The bioinformatics tool, dataset, or method you applied in Assignment 2,
-      and why it was relevant
-    - What you found or produced, described in plain language
-    - 1–2 sentences on how this bioinformatics component strengthened your capstone
-    - (Optional) embedded images or output figures — see the guide for how to
-      add an image
-
-  HOW TO EDIT:
-    - Replace the placeholder text below with your own.
-    - Delete these grey instruction notes before you submit.
-  ============================================================================
--->
-
 ## My Capstone Project
 
-[In 2–4 sentences, describe your capstone project for a general reader. What
-question or problem does it address? Why does it matter? Avoid program-specific
-jargon.]
+My capstone project measures trace amounts of lead (Pb) and cadmium (Cd) in commercial lipstick samples using inductively coupled plasma–mass spectrometry (ICP-MS). We are comparing two sample-preparation methods: acid digestion with the surfactant Triton X-100 and acid digestion followed by liquid–liquid extraction with hexane. The goal is to determine which method provides better metal recovery and reproducibility while reducing interference from the oils, waxes, and pigments in lipstick.
+
+This work is important because Pb and Cd may occur as impurities in cosmetic ingredients or manufacturing processes. Lipstick is applied directly to the lips, so small quantities may be unintentionally ingested during regular use.
 
 ## The Bioinformatics Component
 
-[Describe the specific bioinformatics tool, dataset, or method you applied in
-Assignment 2, and explain why it was the right choice for this problem.]
+For the bioinformatics component, I used the NCBI Gene Expression Omnibus (GEO) to explore publicly available gene-expression data related to lead exposure. GEO was relevant because it contains transcriptomic studies that compare exposed and unexposed biological samples and provide experimental information, sample metadata, and processed gene-expression results.
 
-[In plain language, describe what you found or produced. What did the analysis
-tell you?]
+I evaluated the study design, exposure conditions, biological replicates, and availability of processed data before interpreting the results. I also used differential-expression measures, including log2 fold change and adjusted p-values, to understand which genes showed meaningful and statistically reliable changes after lead exposure. This produced a structured evaluation of how exposure to a toxic metal may affect biological processes at the molecular level. However, these results provide supporting biological context and do not prove that lipstick use causes the same effects observed under the conditions of the GEO study.
 
 ## Why It Strengthened My Capstone
 
-[In 1–2 sentences, explain how adding this bioinformatics work made your
-capstone project stronger, more credible, or more complete.]
-
-<!--
-  OPTIONAL — to embed an image or figure you produced:
-  1. Upload the image file to the images/ folder in your repository.
-  2. Add a line like this where you want it to appear (remove the leading
-     grey-comment marks):
-
-     ![Short description of the figure](/biot74000-portfolio/images/your-figure.png)
-
-  Make sure the path matches your repository name.
--->
+This bioinformatics component connected the analytical measurement of Pb and Cd in lipstick with their possible biological effects. It strengthened the scientific rationale for accurately measuring these metals and showed how laboratory chemistry and public biological datasets can be used together to examine a consumer-safety question.
