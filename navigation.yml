@@ -1,0 +1,25 @@
+# ==============================================================================
+#  TOP NAVIGATION MENU
+# ==============================================================================
+#  This controls the links that appear in the menu bar at the top of your site.
+#  Your portfolio has four required sections, each listed below.
+#
+#  You do NOT need to change anything here to complete the assignment.
+#
+#  (Optional) If you want to add an extra page of your own later, copy one of
+#  the blocks below, change the "title" and "url", and create a matching page
+#  in the _pages folder. Keep the four required sections in place.
+# ==============================================================================
+
+main:
+  - title: "About"
+    url: /about/
+
+  - title: "Bioinformatics Toolkit"
+    url: /toolkit/
+
+  - title: "Skills Snapshot"
+    url: /skills/
+
+  - title: "Capstone Connection"
+    url: /capstone/

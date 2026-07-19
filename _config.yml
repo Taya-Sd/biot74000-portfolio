@@ -1,0 +1,119 @@
+# ==============================================================================
+#  BIOT74000 E-PORTFOLIO - SITE CONFIGURATION
+# ==============================================================================
+#  This file controls site-wide settings. You only need to edit the small
+#  section marked "EDIT THIS SECTION" below. Everything under the line marked
+#  "YOU DO NOT NEED TO EDIT BELOW THIS LINE" can be left alone.
+#
+#  After editing this file in the GitHub web editor, scroll to the bottom of
+#  the page and click the green "Commit changes..." button to save.
+# ==============================================================================
+
+
+# ------------------------------------------------------------------------------
+#  ▼▼▼  EDIT THIS SECTION  ▼▼▼
+# ------------------------------------------------------------------------------
+
+# Your site's title - appears in the top-left of every page and in the browser tab.
+# Example: "Nykole Crevits - Bioinformatics Portfolio"
+title: "Your Name - Bioinformatics Portfolio"
+
+# A short subtitle/description for the site.
+description: "BIOT74000 Bioinformatics E-Portfolio, Bachelor of Applied Biotechnology (Honours), Conestoga College."
+
+# -------------------------------------------------------------------
+#  IMPORTANT - THESE TWO LINES MUST MATCH YOUR REPOSITORY EXACTLY
+#  or your site's styling (colours, fonts, layout) will break.
+# -------------------------------------------------------------------
+
+# Replace "yourusername" with your GitHub username (lowercase).
+url: "https://yourusername.github.io"
+
+# This MUST match your repository name exactly, including the leading slash.
+# If you named your repository "biot74000-portfolio" as instructed, leave this as-is.
+# If you named it something else, change the part after the slash to match.
+baseurl: "/biot74000-portfolio"
+
+# Replace with: yourusername/biot74000-portfolio
+repository: "yourusername/biot74000-portfolio"
+
+# -------------------------------------------------------------------
+#  YOUR PROFILE (appears in the sidebar on every page)
+# -------------------------------------------------------------------
+author:
+  name: "Your Name"
+  bio: "Bachelor of Applied Biotechnology (Honours) student."
+  # To add a profile photo: upload a square image to the images/ folder,
+  # then put its filename here (e.g. "profile.jpg"). Leave blank for no photo.
+  avatar: ""
+  # Optional links in your sidebar. Leave blank to hide. Add your own if you like.
+  email: ""
+  github: ""            # your GitHub username, e.g. "yourusername"
+  linkedin: ""          # your LinkedIn handle, e.g. "yourname"
+
+# ------------------------------------------------------------------------------
+#  ▲▲▲  END OF SECTION TO EDIT  ▲▲▲
+# ==============================================================================
+#  YOU DO NOT NEED TO EDIT BELOW THIS LINE
+# ==============================================================================
+
+
+# Site settings
+locale: "en-US"
+words_per_minute: 160
+future: true
+read_more: "disabled"
+
+# Build settings
+markdown: kramdown
+remote_theme: "academicpages/academicpages.github.io"
+
+# Outputting
+permalink: /:categories/:title/
+timezone: America/Toronto
+
+include:
+  - _pages
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections - only the "pages" content is used in this portfolio.
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+
+# Mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
