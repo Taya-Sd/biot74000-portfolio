@@ -16,7 +16,7 @@
 
 # Your site's title - appears in the top-left of every page and in the browser tab.
 # Example: "Nykole Crevits - Bioinformatics Portfolio"
-title: "Your Name - Bioinformatics Portfolio"
+title: "Taya Seyedi - Bioinformatics Portfolio"
 
 # A short subtitle/description for the site.
 description: "BIOT74000 Bioinformatics E-Portfolio, Bachelor of Applied Biotechnology (Honours), Conestoga College."
@@ -27,7 +27,7 @@ description: "BIOT74000 Bioinformatics E-Portfolio, Bachelor of Applied Biotechn
 # -------------------------------------------------------------------
 
 # Replace "yourusername" with your GitHub username (lowercase).
-url: "https://yourusername.github.io"
+url: "https://taya-sd.github.io"
 
 # This MUST match your repository name exactly, including the leading slash.
 # If you named your repository "biot74000-portfolio" as instructed, leave this as-is.
@@ -35,7 +35,7 @@ url: "https://yourusername.github.io"
 baseurl: "/biot74000-portfolio"
 
 # Replace with: yourusername/biot74000-portfolio
-repository: "yourusername/biot74000-portfolio"
+repository: "taya-sd/biot74000-portfolio"
 
 # -------------------------------------------------------------------
 #  YOUR PROFILE (appears in the sidebar on every page)
