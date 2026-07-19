@@ -29,15 +29,12 @@ redirect_from:
   ============================================================================
 -->
 
-Hello — I'm **[Your Name]**, a student in the Bachelor of Applied Biotechnology
+Hello — I'm **Taya Seyedi**, a student in the Bachelor of Applied Biotechnology
 (Honours) program at Conestoga College.
 
-[Write one or two sentences about your professional interests or the direction
-you want your career to take. Be specific: what kind of work in biotechnology
-or bioinformatics interests you, and why?]
+I am intersted in performing molecular biology techniques, such as PCR, and further investigations of the results using bioinformatic tools. I have always been interested in pharmacetical industry for designing drugs and new methods of the microdrugs delivery.
 
-[Write one sentence explaining why bioinformatics matters for where you want to
-go. This connects the skills in this portfolio to your goals.]
+Bioinformatic is a key connection between molecular techniques and the computational aspect of the pharmacetical industry, in which simulations, data analysis, and catalogue management, can be carried out via the programming tools and software packages. In the era of AI and ML, bioinformatic can become even more critical as pattern recognition is crucial in pharmacetical big data analysis.
 
 This portfolio documents the bioinformatics tools, methods, and skills I have
 developed, and how I have applied them.
