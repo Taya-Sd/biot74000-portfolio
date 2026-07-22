@@ -138,9 +138,9 @@ _This toolkit summarizes the main bioinformatics tools, databases, file formats,
 
 ### CSV Files and Data Cleaning
 
-**Use example:** I worked with plant-growth and synthetic differential-expression CSV files in R. In the plant dataset, I checked missing values and corrected a leaf-count column that had been read as text because it contained the word “dead.”
+**Use example:** I imported CSV files into R and checked the column types, missing values, and data structure before starting the analysis. I cleaned the data when needed so it could be used for calculations and graphs.
 
-**Strengths / limitations:** CSV files are simple and can be opened in both spreadsheets and R. They do not automatically preserve data types, so missing values and incorrect text entries need to be checked before analysis.
+**Strengths / limitations:** CSV files are simple and can be opened in both Excel and R. However, they do not always keep the correct data types, so the dataset needs to be checked carefully after it is imported.
 
 ---
 
